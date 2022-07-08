@@ -16,7 +16,7 @@ namespace HomeWork5
             FillArray(array);
             PrintArray(array);
             Console.WriteLine();
-            Console.WriteLine(GetSumEvenPosition(array));
+            Console.WriteLine(GetSumOddPosition(array));
 
         }
         static void FillArray(int[] array)
@@ -33,7 +33,7 @@ namespace HomeWork5
                 Console.Write(array[i] + " ");
             }
         }
-        static int GetSumEvenPosition(int[] array)
+        static int GetSumOddPosition(int[] array)
         {
             int sum = 0;
             for (int i = 1; i < array.Length; i += 2)
